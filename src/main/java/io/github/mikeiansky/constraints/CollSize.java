@@ -1,6 +1,6 @@
-package com.ian.mike.validator.constraints;
+package io.github.mikeiansky.constraints;
 
-import com.ian.mike.validator.ValueOfIntValidator;
+import io.github.mikeiansky.CollSizeValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
@@ -12,16 +12,21 @@ import java.lang.annotation.Target;
 /**
  * @author mike ian
  * @date 2024/9/13
- * @desc
+ * @desc 集合大小验证
  **/
-@Constraint(validatedBy = ValueOfIntValidator.class)
+@Constraint(validatedBy = CollSizeValidator.class)
 @Target({ElementType.FIELD, ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ValueOfInt {
+public @interface CollSize {
 
-    int[] valueList();
-    String message() default "值必须在指定的范围内";
+    int min() default 0;
+
+    int max() default 100;
+
+    String message();
+
     Class<?>[] groups() default {};
+
     Class<? extends Payload>[] payload() default {};
 
 }

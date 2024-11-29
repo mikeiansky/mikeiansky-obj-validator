@@ -1,6 +1,6 @@
-package com.ian.mike.validator.constraints;
+package io.github.mikeiansky.constraints;
 
-import com.ian.mike.validator.DateFormatValidator;
+import io.github.mikeiansky.DateFormatValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 /**
  * @author mike ian
  * @date 2024/9/13
- * @desc
+ * @desc 日期格式验证
  **/
 @Documented
 @Constraint(validatedBy = DateFormatValidator.class)

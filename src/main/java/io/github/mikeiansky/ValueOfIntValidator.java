@@ -1,6 +1,6 @@
-package com.ian.mike.validator;
+package io.github.mikeiansky;
 
-import com.ian.mike.validator.constraints.ValueOfInt;
+import io.github.mikeiansky.constraints.ValueOfInt;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
@@ -23,7 +23,8 @@ public class ValueOfIntValidator implements ConstraintValidator<ValueOfInt, Inte
             return true;
         }
         // 验证值是否在允许的列表中
-        return Arrays.stream(allowedValues).anyMatch(allowedValue -> allowedValue == value);
+        final int finalValue = value;
+        return Arrays.stream(allowedValues).anyMatch(allowValue -> allowValue == finalValue);
     }
 
 }

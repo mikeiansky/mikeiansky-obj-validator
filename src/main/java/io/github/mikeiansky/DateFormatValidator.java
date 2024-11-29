@@ -1,5 +1,5 @@
-package com.ian.mike.validator;
-import com.ian.mike.validator.constraints.DateFormat;
+package io.github.mikeiansky;
+import io.github.mikeiansky.constraints.DateFormat;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * @author mike ian
  * @date 2024/9/13
- * @desc
+ * @desc 日期验证器
  **/
 public class DateFormatValidator implements ConstraintValidator<DateFormat, String> {
 
