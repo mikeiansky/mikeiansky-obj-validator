@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.mikeiansky</groupId>
     <artifactId>obj-validator</artifactId>
-    <version>0.0.3</version>
+    <version>1.0.1</version>
     <name>obj-validator</name>
     <description>obj-validator</description>
     <url>https://github.com/mikeiansky/obj-validator</url>
