@@ -1,5 +1,5 @@
-package io.github.mikeiansky;
-import io.github.mikeiansky.constraints.DateFormat;
+package io.github.mikeiansky.validation;
+import io.github.mikeiansky.validation.constraints.DateFormat;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

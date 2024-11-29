@@ -1,6 +1,6 @@
-package io.github.mikeiansky;
+package io.github.mikeiansky.validation;
 
-import io.github.mikeiansky.constraints.ValueOfInt;
+import io.github.mikeiansky.validation.constraints.ValueOfInt;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

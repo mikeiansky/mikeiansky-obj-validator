@@ -1,6 +1,6 @@
-package io.github.mikeiansky.constraints;
+package io.github.mikeiansky.validation.constraints;
 
-import io.github.mikeiansky.DateFormatValidator;
+import io.github.mikeiansky.validation.DateFormatValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

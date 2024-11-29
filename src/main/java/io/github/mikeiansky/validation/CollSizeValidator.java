@@ -1,6 +1,6 @@
-package io.github.mikeiansky;
+package io.github.mikeiansky.validation;
 
-import io.github.mikeiansky.constraints.CollSize;
+import io.github.mikeiansky.validation.constraints.CollSize;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
