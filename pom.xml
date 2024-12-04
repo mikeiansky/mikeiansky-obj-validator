@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.mikeiansky</groupId>
-    <artifactId>obj-validator</artifactId>
-    <version>1.0.2</version>
-    <name>obj-validator</name>
-    <description>obj-validator</description>
+    <artifactId>mikeiansky-obj-validator</artifactId>
+    <version>1.0.3</version>
+    <name>mikeiansky-obj-validator</name>
+    <description>mikeiansky-obj-validator</description>
     <url>https://github.com/mikeiansky/obj-validator</url>
     <developers>
         <developer>
