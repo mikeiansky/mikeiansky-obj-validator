@@ -7,7 +7,7 @@
     <version>1.0.3</version>
     <name>mikeiansky-obj-validator</name>
     <description>mikeiansky-obj-validator</description>
-    <url>https://github.com/mikeiansky/obj-validator</url>
+    <url>https://github.com/mikeiansky/mikeiansky-obj-validator</url>
     <developers>
         <developer>
             <id>mikeiansky</id>
@@ -23,9 +23,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/mikeiansky/obj-validator</url>
-        <connection>scm:git:git://github.com/mikeiansky/obj-validator.git</connection>
-        <developerConnection>scm:git:ssh://github.com/mikeiansky/obj-validator.git</developerConnection>
+        <url>https://github.com/mikeiansky/mikeiansky-obj-validator</url>
+        <connection>scm:git:git://github.com/mikeiansky/mikeiansky-obj-validator.git</connection>
+        <developerConnection>scm:git:ssh://github.com/mikeiansky/mikeiansky-obj-validator.git</developerConnection>
     </scm>
 
 
